@@ -24,7 +24,7 @@
 		.row{
 			width:100%;
 		}
-		@media(max-width:767px ){}
+		@media(max-width:767px ){
 			.col-xs-12{
 			background-color: gray;
 			position: relative;
@@ -33,7 +33,7 @@
 			margin-left: 2.5%;
 			margin-right: 2.5%;
 			margin-bottom: 20px;
-			padding: 4px;
+			
 			border: 1px solid black;	
 			border-width: thick;
 		
@@ -51,7 +51,7 @@
 			margin-bottom: 20px;
 			margin-left:2.5%;
 			margin-right:2.5%;
-			padding: 4px;
+			
 			border: 1px solid black;
 			border-width: thick;
 			
@@ -65,7 +65,7 @@
 			margin-left: 2.5%;
 			margin-right: 2.5%;
 			margin-bottom: 20px;
-			padding: 5px;
+			
 			border: 1px solid black;	
 			border-width:thick;
 		
@@ -83,7 +83,7 @@
 			margin-left: 2%;
 			margin-right: 2%;
 			margin-bottom: 20px;
-			padding: 3px;	
+			
 			border: 1px solid black;
 			border-width: thick;
 		}
@@ -142,7 +142,7 @@
 			float:left;
 			clear:both;
 			margin-top: 45px;
-			padding: 4px;
+			padding: 10px;
 			
 		}
 		
