@@ -1,0 +1,147 @@
+*
+		{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		body{
+			font-family: Comic Sans MS;
+			font-size: 100%;
+			margin-top:25px;
+			margin-bottom:25px;
+			
+		}
+			
+
+		h1{
+			font-size:1.75em;
+			text-align: center;
+			margin-top:20px;
+			margin-bottom: 30px;
+		}
+		
+		.row{
+			width:100%;
+		}
+			.col-xs-12{
+			background-color: gray;
+			position: relative;
+			width: 95%;
+			float:left;	
+			margin-left: 2.5%;
+			margin-right: 2.5%;
+			margin-bottom: 20px;
+			padding: 4px;
+			border: 1px solid black;	
+			border-width: thick;
+		
+		}
+				
+
+		@media(min-width:768px) and (max-width: 991px)
+		{
+
+		.col-md-6{
+			background-color: gray;
+			position: relative;
+			width: 45%;
+			float:left;	
+			margin-bottom: 20px;
+			margin-left:2.5%;
+			margin-right:2.5%;
+			padding: 4px;
+			border: 1px solid black;
+			border-width: thick;
+			
+			}
+			
+		.col-md-12{
+			background-color: gray;
+			position: relative;
+			width: 95%;
+			float:left;	
+			margin-left: 2.5%;
+			margin-right: 2.5%;
+			margin-bottom: 20px;
+			padding: 5px;
+			border: 1px solid black;	
+			border-width:thick;
+		
+		}
+		
+		}
+		@media(min-width:992px)
+		{
+
+		.col-lg-4{
+			background-color: gray;
+			position: relative;
+			width: 29.33%;
+			float:left;	
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 20px;
+			padding: 3px;	
+			border: 1px solid black;
+			border-width: thick;
+		}
+		
+		}
+
+		
+		
+		.head1{
+			
+			background-color:#D490A1;
+			width: 30%;
+			position: absolute;
+			top: 0px;
+			right:0px;
+			float: right;	
+			text-align: center;
+			border:1px solid black;	
+			border-width: thick;
+			font-weight: bold;
+			font-size: 1.25em;
+			padding: 5px;
+
+		}
+			.head2{
+			background-color: #17A30A;
+			width: 30%;
+			position: absolute;
+			top: 0px;
+			right:0px;
+			float: right;	
+			text-align: center;
+			border:1px solid black;	
+			border-width: thick;
+			font-weight: bold;
+			font-size: 1.25em;
+			padding: 5px;
+		}
+			.head3{
+			background-color: #DB2E3F;
+			width: 30%;
+			position: absolute;
+			top: 0px;
+			right:0px;
+			float: right;	
+			text-align: center;
+			border:1px solid black;	
+			border-width: thick;
+			font-weight: bold;
+			font-size: 1.25em;
+			padding: 5px;
+
+		}
+		.content{
+			background-color: gray;
+			float:left;
+			clear:both;
+			margin-top: 45px;
+			padding: 4px;
+			
+		}
+		
