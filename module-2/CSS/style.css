@@ -24,6 +24,7 @@
 		.row{
 			width:100%;
 		}
+		@media(max-width:767px ){}
 			.col-xs-12{
 			background-color: gray;
 			position: relative;
@@ -37,7 +38,7 @@
 			border-width: thick;
 		
 		}
-				
+		}
 
 		@media(min-width:768px) and (max-width: 991px)
 		{
